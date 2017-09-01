@@ -10,9 +10,10 @@ body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset,
 body {
     font: 12px/1.5 tahoma, arial, Hiragino Sans GB, WenQuanYi Micro Hei, \5FAE\8F6F\96C5\9ED1, \5B8B\4F53, sans-serif;
     color: #666;
-    min-width: 1000px
-}
+    min-width: 1000px;
 
+}
+*{box-sizing: border-box;}
 address, caption, cite, code, dfn, em, th, var, optgroup {
     font-style: normal;
     font-weight: 400
@@ -553,50 +554,6 @@ body {
     margin-right: 3px;
 }
 
-.nav .logo {
-    margin-top: 17px;
-}
-
-.nav ul > li {
-    line-height: 64px;
-    margin-right: 28px;
-}
-
-.nav ul .short {
-    margin-right: 0;
-}
-
-.nav ul .first {
-    margin-right: 14px;
-}
-
-.nav li > a {
-    float: left;
-    line-height: 62px;
-    width: 94px;
-    text-align: center;
-    border-bottom: 2px solid #fff;
-    font-size: 16px;
-    font-weight: bold;
-    color: #535353;
-}
-
-.nav .line a {
-    margin-right: 40px;
-}
-
-.nav .line:after {
-    content: "|";
-    font-weight: bold;
-}
-
-.nav li > a:hover {
-    color: #2186e7;
-}
-
-.nav li.current > a {
-    border-color: #5293d7;
-}
 
 .page {
     background: #f3f3f3 url(images/page_bg.png) 1200px 0 repeat-y;
@@ -610,7 +567,7 @@ body {
 .page .content {
     position: relative;
     float: left;
-    width: 970px;
+    width: 1020px;
     min-height: 500px;
     padding: 24px 0 20px 50px;
     padding-bottom: 20px;
@@ -771,7 +728,7 @@ body {
     left: 8px;
     bottom: -1px;
     width: 105px;
-    height: 18px;
+    height: 20px;
     border-bottom: 2px solid #ee6f00;
 }
 
@@ -2354,8 +2311,8 @@ body {
 }
 
 .solution .top-box .border {
-    width: 374px;
-    height: 125px;
+    width: 416px;
+    height: 177px;
     padding: 30px 10px 20px 30px;
 }
 
@@ -2494,7 +2451,7 @@ body {
 }
 
 .solution .tab li {
-    width: 187px;
+    width: 223px;
     margin-right: 10px;
     padding: 0 18px;
     opacity: 0.6;
