@@ -574,8 +574,8 @@ body {
     background-color: #fcfcfc;
 }
 
-.container {
-    width: 1200px;
+.container_div {
+    width: 1230px;
     margin: 0 auto;
 }
 
@@ -3623,7 +3623,7 @@ body {
         padding-right: 15px;
     }
 
-    .container {
+    .container_div {
         width: 100%;
         min-width: 1024px;
     }
@@ -3831,4 +3831,4 @@ body {
     }
 }
 .content{display: none}
-.container .active{display: block}
+.container_div .active{display: block}
